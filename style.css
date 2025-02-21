@@ -1,55 +1,87 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
+  height: 100%;
+  width: 100%;
+}
 
-  body {
-    background: #944664;
-    background-image: linear-gradient(90deg, #000004, #140e36, #3b0f70, #641a80, #8c2981, #b5367a, #de4968, #f66e5c, #fe9f6d, #fecf92, #fecf92);
-    color: white;
-    text-align: center;
-  }
+body {
+  background: #944664;
+  background-image: linear-gradient(90deg, #000004, #140e36, #3b0f70, #641a80, #8c2981, #b5367a, #de4968, #f66e5c, #fe9f6d, #fecf92, #fecf92);
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  font-size: large;
+}
 
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
-  .logo {
-    width: 20%;
-    height: auto;
-    display: block;
-    margin-left: 40%;
-  }
+.logo {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: 40%;
+  mask:
+    radial-gradient(at 70% 31%, #000 29%, #0000 30%),
+    radial-gradient(at 30% 31%, #000 29%, #0000 30%),
+    linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
 
-  .chronic-wanderer {
-    width: 100%;
-    height: auto;
-  }
+.chronic-wanderer {
+  width: 100%;
+  height: auto;
+}
 
-  .cat-girl {
-    object-fit: cover;
-    width: 80%;
-    height: 70%;
-  }
+.cat-girl {
+  object-fit: cover;
+  width: 80%;
+  height: 70%;
+}
 
-  .zombieland {
-    max-width: 100%;
-    height: auto;
-  }
+.zombieland {
+  max-width: 100%;
+  height: auto;
+}
 
-  .form {
-    display: block;
-    margin: auto;
-    width: auto;
-  }
+.form {
+  background-image: url('https://i.pinimg.com/736x/a8/28/7b/a8287b8f897624740cdfe2c05a782d25.jpg');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 10%;
+  width: auto;
+  opacity: 0.8;
+  margin-left: 40%;
+}
 
-  .message {
-    width: 200px;
-    height: 200px;
-  }
+.form input,
+.form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  box-sizing: border-box;
+  text-align: center;
+}
 
-  .footer {
-    text-align: left;
-  }
+.message {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 8px;
+  background-color: antiquewhite;
+}
+
+.footer {
+  text-align: left;
+}

@@ -7,47 +7,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav></nav>
-    <div class='about-me'>
-      <h2>About Me</h2>
-      <img src="https://i.imgur.com/qpC41fG.jpeg" class='logo'>
-      <p>Hi 👋🏾 My name is Amira and I'm Software Engineer in NYC. I finished a General Assembly Software Engineering
-        bootcamp, a Meta Front End certificate and a Google IT Help Desk certificate. I enjoy roller skating, traveling
-        and horror movies. My favorite horror movie is and Argentinian film called Terrified.</p>
+  <nav class='nav-bar'>
+    <a href="#about-me">About Me</a>
+    <a href="#project1">Projects</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+  <div class='about-me'>
+    <h2>About Me</h2>
+    <img src="https://i.imgur.com/qpC41fG.jpeg" class='logo'>
+    <p><strong><em>So, what's the sitch? I’m Amira Possible, your go to Software Engineer ready to tackle any coding
+          challenge that
+          comes my way.<br> I thrive under pressure, whether it's building sleek web apps, solving tricky bugs, or
+          optimizing systems. I’m always on call, and there’s no problem too big or too small.<br> I approach every
+          mission
+          (aka project) with a clear head and a can do attitude. Whether it's designing a clean user interface or
+          debugging
+          lines of code, I’m all in.<br> No task is too complex when you're equipped with the right tools and
+          determination
+          and that’s exactly what I bring to the table.<br> So, if you’ve got a project that needs a fearless developer
+          who’s ready for anything, I’m your person. Call me, beep me, if you wanna reach me.</strong></em></p>
+  </div>
+
+  <h2>My Projects</h2>
+  <div class='flex-container'>
+    <div class='project1'>
+      <h3>Chronic Wanderer</h3>
+      <p>Chronic Wanderer is a community-driven app designed to share your experiences, tips, and advice on how to make
+        the most of your travels while managing a chronic health condition.</p>
+      <img src="https://i.imgur.com/qGyALkm.png" class='chronic-wanderer'>
     </div>
-    <h2>My Projects</h2>
-    <div class='flex-container'>
-      <div class='project1'>
-        <h3>Chronic Wanderer</h3>
-        <p>Chronic Wanderer is a community-driven app designed to share your experiences, tips, and advice on how to make
-          the most of your travels while managing a chronic health condition.</p>
-        <img src="https://i.imgur.com/qGyALkm.png" class='chronic-wanderer'>
-      </div>
-      <div class='project2'>
-        <h3>Cat Girl</h3>
-        <p>Cat Girl, the purrrfect app designed to help foster pawrents list their cat children they are nurturing and
-          find them their forever homes. Our app provides a seamless platform for foster pawrents to share valuable
-          information about their foster cats, including temperament, breed, and vaccination status.
-          stories.</p>
-        <img src="https://i.imgur.com/vwMPzNj.png" class='cat-girl'>
-      </div>
-      <div class='project3'>
-        <h3>Zombieland</h3>
-        <p>You must survive waves of zombie hordes by shooting them as long as possible. Are you ready to save the world
-          against a horde of flesh eating zombies? </p>
-        <img src="https://i.imgur.com/viTO43e.png" class='zombieland'>
-      </div>
+    <div class='project2'>
+      <h3>Cat Girl</h3>
+      <p>Cat Girl, the purrrfect app designed to help foster pawrents list their cat children<br> they are nurturing and
+        find them their forever homes. Our app provides a seamless platform<br> for foster pawrents to share valuable
+        information about their foster cats,<br> including temperament, breed, and vaccination status.
+        stories.</p>
+      <img src="https://i.imgur.com/vwMPzNj.png" class='cat-girl'>
     </div>
+    <div class='project3'>
+      <h3>Zombieland</h3>
+      <p>You must survive waves of zombie hordes by shooting them as long as possible. Are you ready to save the world
+        against a horde of flesh eating zombies? </p>
+      <img src="https://i.imgur.com/viTO43e.png" class='zombieland'>
+    </div>
+  </div>
+  <div class='contact'>
     <form class='form'>
       <label for="message">Contact Me:</label>
-      <input type="text" class="message" name="message" placeholder="Your message">
+      <input type="text" class="message" name="message" placeholder="Your message" required>
       <label for="name">Name</label>
-      <input type="text" class="name" name="name" placeholder="Name">
+      <input type="text" class="name" name="name" required>
       <label for="email">Email</label>
-      <input type="email" class="email" name="email" placeholder="Email">
+      <input type="email" class="email" name="email" required>
+      <button>Submit</button>
     </form>
-    <footer class='footer'>
-      <p>Copyright © 2025 Amira in the Rotten 🍏™</p>
-    </footer>
+  </div>
+  <footer class='footer'>
+    <p>Copyright © 2025 Amira in the Rotten 🍏™</p>
+  </footer>
 </body>
 </html>
