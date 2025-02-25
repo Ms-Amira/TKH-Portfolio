@@ -25,3 +25,5 @@ CSS3: Styling and layout.
 Google Docs: Link to resume.
 
 Image Hosting (Imgur): Hosting images for project thumbnails.
+
+Link to portfolio: https://amirapossible.netlify.app/
